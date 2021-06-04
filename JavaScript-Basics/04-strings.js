@@ -31,5 +31,20 @@ console.log(`My birthday is on ${birthDay} and I live in ${state}.`);
 let cats ="3";
  console.log(cats +2);
 
+ let gradYear = 1994;
+ let highSchool = "Bill Murray High School";
+ console.log(`I graduated from ${highSchool} in ${gradYear}.`)
+
  //string methods
- 
+
+ //.length returns length of string (includes spacing)
+ console.log(highSchool.length);
+
+ //lower or uppercase
+ console.log(highSchool.toUpperCase());
+ console.log(highSchool.toLowerCase());
+
+ //slice(start, end)
+ console.log(highSchool.slice(0,11)); //extracts the first 12 characters from 0 to 11
+
+ //.split(separator) splits str into an array of substrings separated by parameter separator 
