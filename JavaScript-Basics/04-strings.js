@@ -14,3 +14,22 @@ let birthCity ="Indianapolis";
 let birthState = "Indiana";
 
 console.log(birthCity + ", " + birthState);
+
+//interpolation make sure to use the `. Makes spacing easier than concatenation 
+let greeting = "Hello";
+let firstName = "Finn";
+let lastName = "Mertens";
+
+console.log(`${greeting}! My name is ${firstName} ${lastName}. Nice to meet you!`)
+
+let birthDay = "November 17";
+let state = "Indiana";
+
+console.log(`My birthday is on ${birthDay} and I live in ${state}.`);
+
+//coercion: Javascript turns numbers into strings when you mix them together
+let cats ="3";
+ console.log(cats +2);
+
+ //string methods
+ 
