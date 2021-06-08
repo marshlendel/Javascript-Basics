@@ -38,7 +38,7 @@ let cats ="3";
  //string methods
 
  //.length returns length of string (includes spacing)
- console.log(highSchool.length);
+ console.log(highSchool.length); //Technically this is a property
 
  //lower or uppercase
  console.log(highSchool.toUpperCase());
@@ -48,3 +48,5 @@ let cats ="3";
  console.log(highSchool.slice(0,11)); //extracts the first 12 characters from 0 to 11
 
  //.split(separator) splits str into an array of substrings separated by parameter separator 
+
+ //.trim() Gets rid of extra spaces
